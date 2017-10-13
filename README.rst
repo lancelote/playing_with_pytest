@@ -6,7 +6,7 @@ Code from pytest_ documentation, experiments and reading progress track
 table of content
 ----------------
 
-- [-] Chapter 1: Installation and Getting Started
+- [x] Chapter 1: Installation and Getting Started
 - [-] Chapter 2: Usage and Invocations
 - [-] Chapter 3: Using pytest with an existing test suite
 - [-] Chapter 4: The writing and reporting of assertions in tests
