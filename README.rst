@@ -8,7 +8,7 @@ table of content
 
 - [x] Chapter 1: Installation and Getting Started
 - [x] Chapter 2: Usage and Invocations
-- [-] Chapter 3: Using pytest with an existing test suite
+- [x] Chapter 3: Using pytest with an existing test suite
 - [-] Chapter 4: The writing and reporting of assertions in tests
 - [-] Chapter 5: Pytest API and builtin fixtures
 - [-] Chapter 6: pytest fixtures: explicit, modular, scalable
