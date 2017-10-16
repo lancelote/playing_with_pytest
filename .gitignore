@@ -6,3 +6,6 @@
 
 # Python Byte Code
 __pycache__/
+
+# virtual environment
+venv/
