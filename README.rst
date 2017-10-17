@@ -10,7 +10,7 @@ table of content
 - [x] Chapter 2: Usage and Invocations
 - [x] Chapter 3: Using pytest with an existing test suite
 - [x] Chapter 4: The writing and reporting of assertions in tests
-- [-] Chapter 5: Pytest API and builtin fixtures
+- [x] Chapter 5: Pytest API and builtin fixtures
 - [-] Chapter 6: pytest fixtures: explicit, modular, scalable
 - [-] Chapter 7: Monkeypatching/mocking modules and environments
 - [-] Chapter 8: Temporary directories and files
