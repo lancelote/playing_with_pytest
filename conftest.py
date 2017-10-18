@@ -62,3 +62,16 @@ def equipment(request):
         request.addfinalizier(equip.disconnect)
         r.append(equip)
     return r
+
+
+# Introspect test context #
+###########################
+
+
+@pytest.fixture(scope='module')
+def smtp_introspection(request):
+    server = getattr(request.module, 'smtpserver', 'smtp.gmail.com')
+    connection = smtplib.SMTP(server, 587, timeout=5)
+    yield connection
+    print('finalizing %s (%s)' % (connection, server))
+    connection.close()
