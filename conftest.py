@@ -1,4 +1,6 @@
+import os
 import smtplib
+import tempfile
 
 import pytest
 
@@ -90,3 +92,13 @@ def smtp_param(request):
     yield connection
     print('finalizing %s' % connection)
     connection.close()
+
+
+# Class, module, project fixtures #
+###################################
+
+
+@pytest.fixture()
+def clean_dir():
+    new_path = tempfile.mkdtemp()
+    os.chdir(new_path)
