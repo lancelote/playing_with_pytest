@@ -8,6 +8,7 @@ from chapter4.test_foocompare import Foo
 # Custom comparison output #
 ############################
 
+
 def pytest_assertrepr_compare(op, left, right):
     if isinstance(left, Foo) and isinstance(right, Foo) and op == '==':
         return ['Comparing Foo instances:', '   values: %s != %s' % (left.val, right.val)]
@@ -15,6 +16,7 @@ def pytest_assertrepr_compare(op, left, right):
 
 # Sharing fixture across tests in module #
 ##########################################
+
 
 @pytest.fixture(scope='module')  # use 'session' for per-session fixture
 def smtp():
@@ -28,6 +30,7 @@ def smtp():
 
 # Teardown after tests #
 ########################
+
 
 # More concise with context manager
 @pytest.fixture(scope='module')
@@ -74,4 +77,16 @@ def smtp_introspection(request):
     connection = smtplib.SMTP(server, 587, timeout=5)
     yield connection
     print('finalizing %s (%s)' % (connection, server))
+    connection.close()
+
+
+# Fixture parametrization #
+###########################
+
+
+@pytest.fixture(scope='module', params=['smtp.gmail.com', 'mail.python.org'])
+def smtp_param(request):
+    connection = smtplib.SMTP(request.param, 587, timeout=5)
+    yield connection
+    print('finalizing %s' % connection)
     connection.close()
