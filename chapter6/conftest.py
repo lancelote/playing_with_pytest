@@ -91,3 +91,12 @@ def smtp_param(request):
 def clean_dir():
     new_path = tempfile.mkdtemp()
     os.chdir(new_path)
+
+
+# Fixture overriding #
+######################
+
+
+@pytest.fixture(name='username')
+def fixture_username():
+    return 'username'
