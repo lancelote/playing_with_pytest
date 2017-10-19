@@ -1,3 +1,6 @@
+[![Requirements Status](https://requires.io/github/lancelote/playing_with_pytest/requirements.svg?branch=master)](https://requires.io/github/lancelote/playing_with_pytest/requirements/?branch=master)
+[![Build Status](https://travis-ci.org/lancelote/playing_with_pytest.svg?branch=master)](https://travis-ci.org/lancelote/playing_with_pytest)
+
 # playing_with_pytest
 
 Code from [pytest][1] documentation, experiments and reading progress track
