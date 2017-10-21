@@ -100,3 +100,8 @@ def clean_dir():
 @pytest.fixture(name='username')
 def fixture_username():
     return 'username'
+
+
+@pytest.fixture(name='other_username')
+def fixture_other_username(username):
+    return 'other-' + username
