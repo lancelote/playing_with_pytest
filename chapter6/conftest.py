@@ -105,3 +105,14 @@ def fixture_username():
 @pytest.fixture(name='other_username')
 def fixture_other_username(username):
     return 'other-' + username
+
+
+@pytest.fixture(params=['one', 'two', 'three'], name='parametrized_username')
+def fixture_parametrized_username(request):
+    return request.param
+
+
+# noinspection PyUnusedLocal
+@pytest.fixture(name='non_parametrized_username')
+def fixture_non_parametrized_username(request):
+    return 'username'
