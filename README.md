@@ -14,7 +14,7 @@ Code from [pytest][1] documentation, experiments and reading progress track
 - [x] Chapter 5: Pytest API and builtin fixtures
 - [x] Chapter 6: pytest fixtures: explicit, modular, scalable
 - [x] Chapter 7: Monkeypatching/mocking modules and environments
-- [ ] Chapter 8: Temporary directories and files
+- [x] Chapter 8: Temporary directories and files
 - [ ] Chapter 9: Capturing of the stdout/stderr output
 - [ ] Chapter 10: Warnings Capture
 - [ ] Chapter 11: Doctest integration for modules and test files
