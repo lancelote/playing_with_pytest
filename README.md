@@ -17,7 +17,7 @@ Code from [pytest][1] documentation, experiments and reading progress track
 - [x] Chapter 8: Temporary directories and files
 - [x] Chapter 9: Capturing of the stdout/stderr output
 - [x] Chapter 10: Warnings Capture
-- [ ] Chapter 11: Doctest integration for modules and test files
+- [x] Chapter 11: Doctest integration for modules and test files
 - [ ] Chapter 12: Marking test functions with attributes
 - [ ] Chapter 13: Skip and xfail: dealing with tests that cannot succeed
 - [ ] Chapter 14: Parametrizing fixtures and test functions
