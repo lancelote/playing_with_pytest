@@ -7,15 +7,15 @@ Code from [pytest][1] documentation, experiments and reading progress track
 
 ## table of content
 
-- [x] Chapter 1: Installation and Getting Started
-- [x] Chapter 2: Usage and Invocations
-- [x] Chapter 3: Using pytest with an existing test suite
-- [x] Chapter 4: The writing and reporting of assertions in tests
-- [x] Chapter 5: Pytest API and builtin fixtures
-- [x] Chapter 6: pytest fixtures: explicit, modular, scalable
-- [x] Chapter 7: Monkeypatching/mocking modules and environments
-- [x] Chapter 8: Temporary directories and files
-- [x] Chapter 9: Capturing of the stdout/stderr output
+- [x] Chapter 01: Installation and Getting Started
+- [x] Chapter 02: Usage and Invocations
+- [x] Chapter 03: Using pytest with an existing test suite
+- [x] Chapter 04: The writing and reporting of assertions in tests
+- [x] Chapter 05: Pytest API and builtin fixtures
+- [x] Chapter 06: pytest fixtures: explicit, modular, scalable
+- [x] Chapter 07: Monkeypatching/mocking modules and environments
+- [x] Chapter 08: Temporary directories and files
+- [x] Chapter 09: Capturing of the stdout/stderr output
 - [x] Chapter 10: Warnings Capture
 - [x] Chapter 11: Doctest integration for modules and test files
 - [x] Chapter 12: Marking test functions with attributes

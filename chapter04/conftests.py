@@ -1,4 +1,4 @@
-from chapter4.test_foocompare import Foo
+from chapter04.test_foocompare import Foo
 
 
 # Custom comparison output #

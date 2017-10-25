@@ -2,6 +2,7 @@ import os
 
 import pytest
 
+
 # module level fixture
 # pytestmark = pytest.mark.usefixtures('clean_dir')
 
