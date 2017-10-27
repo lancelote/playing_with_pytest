@@ -19,7 +19,7 @@ Code from [pytest][1] documentation, experiments and reading progress track
 - [x] Chapter 10: Warnings Capture
 - [x] Chapter 11: Doctest integration for modules and test files
 - [x] Chapter 12: Marking test functions with attributes
-- [ ] Chapter 13: Skip and xfail: dealing with tests that cannot succeed
+- [x] Chapter 13: Skip and xfail: dealing with tests that cannot succeed
 - [ ] Chapter 14: Parametrizing fixtures and test functions
 - [ ] Chapter 15: Cache: working with cross-testrun state
 - [ ] Chapter 16: unittest.TestCase Support
