@@ -18,5 +18,8 @@ def test_function(my_data):
 
     To see cache, call:
         pytest --cache-show
+
+    To clear cache:
+        pytest --cache-clear
     """
     return my_data == 42
