@@ -14,5 +14,9 @@ def fixture_my_data(request):
 
 
 def test_function(my_data):
-    """Call twice and check time difference."""
+    """Call twice and check time difference.
+
+    To see cache, call:
+        pytest --cache-show
+    """
     return my_data == 42
