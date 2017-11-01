@@ -25,7 +25,7 @@ Code from [pytest][1] documentation, experiments and reading progress track
 - [x] Chapter 16: unittest.TestCase Support
 - [x] Chapter 17: Running tests written for nose
 - [x] Chapter 18: classic xunit-style setup
-- [ ] Chapter 19: Installing and Using plugins
+- [x] Chapter 19: Installing and Using plugins
 - [ ] Chapter 20: Writing plugins
 - [ ] Chapter 21: Writing hook functions
 - [ ] Chapter 22: pytest hook reference
