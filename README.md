@@ -24,7 +24,7 @@ Code from [pytest][1] documentation, experiments and reading progress track
 - [x] Chapter 15: Cache: working with cross-testrun state
 - [x] Chapter 16: unittest.TestCase Support
 - [x] Chapter 17: Running tests written for nose
-- [ ] Chapter 18: classic xunit-style setup
+- [x] Chapter 18: classic xunit-style setup
 - [ ] Chapter 19: Installing and Using plugins
 - [ ] Chapter 20: Writing plugins
 - [ ] Chapter 21: Writing hook functions
