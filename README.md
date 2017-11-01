@@ -22,7 +22,7 @@ Code from [pytest][1] documentation, experiments and reading progress track
 - [x] Chapter 13: Skip and xfail: dealing with tests that cannot succeed
 - [x] Chapter 14: Parametrizing fixtures and test functions
 - [x] Chapter 15: Cache: working with cross-testrun state
-- [ ] Chapter 16: unittest.TestCase Support
+- [x] Chapter 16: unittest.TestCase Support
 - [ ] Chapter 17: Running tests written for nose
 - [ ] Chapter 18: classic xunit-style setup
 - [ ] Chapter 19: Installing and Using plugins
